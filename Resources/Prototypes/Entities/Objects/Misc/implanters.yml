@@ -50,6 +50,9 @@
     - RadioImplantTrinary #FH
     - RadioImplantNexus #FH
     - VoiceMaskImplant
+    - MindShieldImplantNS # FH
+    - MindShieldImplantGSL # FH
+    - FakeMindShieldImplantNS # FH
     deimplantFailureDamage:
       types:
         Cellular: 20 #FH
@@ -187,7 +190,7 @@
 
 - type: entity
   id: TrackingImplanter
-  name: tracking implanter
+  name: Tracking Implant (NT) #FH
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -308,6 +311,12 @@
   components:
   - type: Implanter
     implant: FakeMindShieldImplant
+    blacklist: 
+      components:
+      - Guardian
+      - FakeMindShield #FH
+      tags:
+      - Unimplantable
 
 # Security and Command implanters
 
@@ -318,6 +327,12 @@
   components:
   - type: Implanter
     implant: MindShieldImplant
+    blacklist: 
+      components:
+      - Guardian
+      - MindShield #FH
+      tags:
+      - Unimplantable
 
 # Centcomm implanters
 
