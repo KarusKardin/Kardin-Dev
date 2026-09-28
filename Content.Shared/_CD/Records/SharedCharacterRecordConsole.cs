@@ -16,7 +16,7 @@ public enum CharacterRecordConsoleKey : byte
 public enum RecordConsoleType : byte
 {
     Security,
-    Medical,
+    Medical,test
     Employment,
     /// <summary>
     /// Admin console has the functionality of all other types and offers additional controls.
