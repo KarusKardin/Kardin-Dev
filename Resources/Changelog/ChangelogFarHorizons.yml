@@ -21015,5 +21015,98 @@ Entries:
   id: 179802
   time: '2026-09-23T18:05:09.000000+00:00'
   url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1798
+- author: AthenaAI
+  changes:
+  - message: Adds a radial menu to toggle certain parts of the cyberlimb and its tools.
+      Double tapping the deploy action will automatically instantly deploy the limb.
+    type: Add
+  id: 180200
+  time: '2026-09-23T21:15:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1802
+- author: AthenaAI
+  changes:
+  - message: Made it so you can click on the tools to swap instantly this also applies
+      to borg modules.
+    type: Tweak
+  id: 180201
+  time: '2026-09-23T21:15:43.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1802
+- author: AthenaAI
+  changes:
+  - message: Adds compatibility with the new parcel deliveries.
+    type: Add
+  id: 180700
+  time: '2026-09-24T21:23:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1807
+- author: AthenaAI
+  changes:
+  - message: Fixes an issue where Faction was showing on personal orders but not on
+      departmental orders.
+    type: Fix
+  id: 180701
+  time: '2026-09-24T21:23:16.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1807
+- author: princess_gurchi
+  changes:
+  - message: Consortium agents and Lambda operatives will actually spawn in NeoSol
+      rounds. Still very WIP
+    type: Add
+  id: 180500
+  time: '2026-09-25T14:12:44.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1805
+- author: rain_enjoyer
+  changes:
+  - message: Added one singular line to the zombie guidebook to better explain how
+      shooting a zombie's head works.
+    type: Add
+  id: 181000
+  time: '2026-09-27T14:08:57.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1810
+- author: Mizuki
+  changes:
+  - message: Civilian magazines can now be printed in ammofabs
+    type: Fix
+  id: 181300
+  time: '2026-09-27T14:11:19.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1813
+- author: AthenaAI, KillerTamashii
+  changes:
+  - message: Topicals no longer heal above the 400 cap.
+    type: Tweak
+  id: 181200
+  time: '2026-09-27T14:19:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1812
+- author: AthenaAI, KillerTamashii
+  changes:
+  - message: Adds new sealable beaker come with the purchase Aloxadone and Stebillin
+      Extract.
+    type: Add
+  id: 181201
+  time: '2026-09-27T14:19:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1812
+- author: AthenaAI, KillerTamashii
+  changes:
+  - message: Adds new option for medical when botany isn't available for Aloe and
+      Galaxy Thistle. They can be purchased from GSL.
+    type: Add
+  id: 181202
+  time: '2026-09-27T14:19:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1812
+- author: AthenaAI, KillerTamashii
+  changes:
+  - message: New Experimental Portable Cryogenics Unit uses liquid nitrogen to cool
+      people. Found in the locker of your local CMO or MD. Sprited by Killer Tamashii.
+    type: Add
+  id: 181203
+  time: '2026-09-27T14:19:47.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1812
+- author: princess_gurchi
+  changes:
+  - message: Monkeys and kobolds will behave like the rest of the animals rather than
+      like humanoids when zombified, they can be killed without damaging head.
+    type: Tweak
+  id: 181100
+  time: '2026-09-27T14:22:24.000000+00:00'
+  url: https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1811
 Order: -1
 
