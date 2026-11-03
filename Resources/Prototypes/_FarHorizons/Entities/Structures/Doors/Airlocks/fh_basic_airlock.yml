@@ -29,7 +29,7 @@
       map: ["enum.DoorVisualLayers.BaseBolted"]
     - state: spark
       shader: unshaded
-      map: ["enum.DoorVisualLayers.BaseEmergencyAccess", "enum.DoorVisualLayers.BaseEmagging"] # FH - Added BaseEmagging so emag animations show up
+      map: ["enum.DoorVisualLayers.BaseEmergencyAccess"] # removed the EMAG mapping from this so EA animations would play normally, better this than EA lights not working
     - state: panel_open
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - state: electrified_ai
