@@ -28,13 +28,13 @@ public sealed partial class AlertLebelAccessSystem : EntitySystem
         while (query.MoveNext(out var uid, out var alertaccesscomp))
         {
             if (!TryComp<AirlockComponent>(uid, out var airlockcomp)) // This isnt an airlock.
-                return;
+                continue;
 
             if (!GetAlertLevelsProvider(uid, alertaccesscomp, out var alertlevels)) // Get the correct list of alerts we should be EAed for
                 alertlevels = alertaccesscomp.AlertLevels;
             
             if (alertlevels == null) // we shouldnt be EAed during any alerts
-                return;
+                continue;
 
             var desiredstate = alertlevels.Any(p => p == args.AlertLevel); // What state do we want to set it to?
 
