@@ -2,6 +2,7 @@
 # - add FHDoor so it rotates on spawn to fit walls
 # - add StructureOcclusion so it occludes sound
 # - add fixVacuum to Airtight so it doesn't flicker you to suffocating if you walk through them quickly
+# - add AlertLevelAccess so some airlocks can be automatically EAed during certain alerts based on their DoorElectronics
 # - use FH construction graph and paint group
 # From RMC:
 # - override the sprite setup using the RMC sprite layers, except as noted for emags
@@ -74,6 +75,8 @@
   - type: IconSmooth # From RMC, makes walls show as connected to the airlock when adjacent
     key: walls
     mode: NoSprite
+  - type: AlertLevelAccess
+    containerAlertLevelsProvider: board
 
 - type: entity
   id: FHAirlockGlass
