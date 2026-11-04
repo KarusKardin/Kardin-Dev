@@ -38,6 +38,11 @@ public sealed partial class AlertLebelAccessSystem : EntitySystem
 
             var desiredstate = alertlevels.Any(p => p == args.AlertLevel); // What state do we want to set it to?
 
+            // dont disable EA if the previous alert level was not an alert level we would have enabled it on.
+            // prevents constantly disabling EA when switching between unrelated alert levels.
+            if (!desiredstate && alertlevels.All(p => p != args.OldAlertLevel)) 
+                continue;
+
             _airlocks.SetEmergencyAccess((uid, airlockcomp), desiredstate);
         }
     }
