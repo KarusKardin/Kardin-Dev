@@ -32,7 +32,6 @@
   - type: Appearance
   - type: RefillableSolution
     solution: hypospray
-    refillTime: 0.75
   - type: Fiber
     fiberMaterial: fibers-rubber
     fiberColor: fibers-red-and-black-woven
